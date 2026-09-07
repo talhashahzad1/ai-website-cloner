@@ -8,13 +8,13 @@ const faqItems: FaqItem[] = [
     question:
       "How can outsourcing my real estate bookkeeping improve my business's profit margins?",
     answer:
-      "By outsourcing your bookkeeping to REA, you benefit from our specialized expertise and precise accounting practices, which ensure accuracy and minimize financial discrepancies. This reduces the risk of costly errors and penalties. The overall efficiency helps improve your operational margins by allowing you to reallocate resources towards growth-focused activities.",
+      "By outsourcing your bookkeeping to Vertex, you benefit from our specialized expertise and precise accounting practices, which ensure accuracy and minimize financial discrepancies. This reduces the risk of costly errors and penalties. The overall efficiency helps improve your operational margins by allowing you to reallocate resources towards growth-focused activities.",
   },
   {
     question:
       "What specific real estate accounting services and tools do you use to manage my financial records?",
     answer:
-      "At REA, we are experienced accountants across all industry-leading property management accounting software such as AppFolio, Yardi, Buildium, Rent Manager, Entrata, Real Page, QuickBooks, and MRI. These tools provide comprehensive solutions for managing financial transactions, tracking expenses, and creating reports. We get accountant access to your software PMS, just like you'd provide any internal employee.",
+      "At Vertex, we are experienced accountants across all industry-leading property management accounting software such as AppFolio, Yardi, Buildium, Rent Manager, Entrata, Real Page, QuickBooks, and MRI. These tools provide comprehensive solutions for managing financial transactions, tracking expenses, and creating reports. We get accountant access to your software PMS, just like you'd provide any internal employee.",
   },
   {
     question:
@@ -32,7 +32,7 @@ const faqItems: FaqItem[] = [
     question:
       "Can you assist with regulatory compliance and audits for real estate businesses?",
     answer:
-      "Yes, regulatory compliance and preparedness for audits are fundamental components of our services. At REA, we ensure that all your financial practices adhere to the latest real estate regulations and standards. Our thorough and precise bookkeeping fortifies your business against compliance issues and streamlines the audit process, minimizing potential risks and penalties.",
+      "Yes, regulatory compliance and preparedness for audits are fundamental components of our services. At Vertex, we ensure that all your financial practices adhere to the latest real estate regulations and standards. Our thorough and precise bookkeeping fortifies your business against compliance issues and streamlines the audit process, minimizing potential risks and penalties.",
   },
 ];
 

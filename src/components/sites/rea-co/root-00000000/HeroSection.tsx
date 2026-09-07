@@ -132,7 +132,7 @@ export function HeroSection() {
                 Month-End Close
               </p>
               <p className="mt-0.5 font-heading text-sm font-semibold text-white">
-                Your Portfolio · by REA
+                Your Portfolio · by Vertex
               </p>
             </div>
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#20949d]/20">

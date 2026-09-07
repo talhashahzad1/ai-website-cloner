@@ -60,7 +60,7 @@ const footerColumns = [
     title: "Company",
     links: [
       { label: "About Us", href: "/about/" },
-      { label: "Meet REA", href: "/meet-rea/" },
+      { label: "Meet Vertex", href: "/meet-rea/" },
       { label: "Resources", href: "/blog/" },
       { label: "Careers", href: "/working-at-rea/" },
       { label: "Locations", href: "/locations/" },
@@ -70,10 +70,10 @@ const footerColumns = [
 ];
 
 const socialLinks = [
-  { icon: LinkedInIcon, label: "REA on LinkedIn", href: "https://www.linkedin.com/company/realestateaccountingco/" },
-  { icon: XTwitterIcon, label: "REA on X", href: "https://twitter.com/reabookkeeping" },
-  { icon: InstagramIcon, label: "REA on Instagram", href: "https://www.instagram.com/reaaccounting/" },
-  { icon: FacebookIcon, label: "REA on Facebook", href: "https://www.facebook.com/reabookkeeping" },
+  { icon: LinkedInIcon, label: "Vertex on LinkedIn", href: "https://www.linkedin.com/company/realestateaccountingco/" },
+  { icon: XTwitterIcon, label: "Vertex on X", href: "https://twitter.com/reabookkeeping" },
+  { icon: InstagramIcon, label: "Vertex on Instagram", href: "https://www.instagram.com/reaaccounting/" },
+  { icon: FacebookIcon, label: "Vertex on Facebook", href: "https://www.facebook.com/reabookkeeping" },
 ];
 
 export function Footer() {
@@ -83,8 +83,8 @@ export function Footer() {
         {/* Logo + Description */}
         <div>
           <Image
-            src="/sites/rea-co/shared/rea-logo.png"
-            alt="REA.co Real Estate Accounting & Tax"
+            src="/sites/rea-co/shared/vertex-logo.svg"
+            alt="Vertex Accounting Real Estate Accounting & Tax"
             height={52}
             width={160}
             className="h-12 w-auto"
@@ -125,7 +125,7 @@ export function Footer() {
           {/* Left: Copyright + Contact */}
           <div>
             <p className="text-[13px] text-white/40">
-              &copy; {new Date().getFullYear()} REA Services LLC. All Rights Reserved.
+              &copy; {new Date().getFullYear()} Vertex Accounting LLC. All Rights Reserved.
             </p>
             <p className="mt-1 text-[12px] text-white/30">
               All third-party company and product names referenced on this website are trademarks of their respective owners.

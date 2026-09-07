@@ -7,13 +7,13 @@ export function AboutSection() {
         {/* Left Column */}
         <div>
           <h2 className="font-heading text-[clamp(1.9rem,3.6vw,2.6rem)] font-semibold leading-tight tracking-[-0.02em] text-navy">
-            About REA
+            About Vertex
           </h2>
           <h3 className="mt-2 text-[1.08rem] font-bold leading-snug text-teal">
             Built Exclusively for Real Estate
           </h3>
           <p className="measure mt-5 text-[17px] leading-relaxed text-slate">
-            REA provides outsourced accounting, tax, and lease compliance
+            Vertex provides outsourced accounting, tax, and lease compliance
             services exclusively for the real estate industry.
           </p>
           <p className="measure mt-4 text-[17px] leading-relaxed text-slate">
@@ -28,7 +28,7 @@ export function AboutSection() {
           <p className="measure mt-4 text-[17px] leading-relaxed text-slate">
             From growing operators managing a few hundred units to institutional
             organizations overseeing hundreds of thousands of units and millions
-            of square feet, REA is built to support real estate businesses at
+            of square feet, Vertex is built to support real estate businesses at
             every stage of growth.
           </p>
         </div>

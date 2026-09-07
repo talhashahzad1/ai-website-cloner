@@ -12,7 +12,7 @@ export function TestimonialSection() {
               The firm property managers keep getting asked about
             </h2>
 <p className="mt-5 font-sans text-sm leading-relaxed text-slate">
-            REA has been featured on Fox Business and Bloomberg for the way
+            Vertex has been featured on Fox Business and Bloomberg for the way
             outsourced accounting is changing how property management companies
             scale. Watch the two-minute version of what we actually do.
           </p>
@@ -39,7 +39,7 @@ export function TestimonialSection() {
 
             {/* CTA Button */}
             <button className="mt-8 rounded-full border border-border-line bg-white px-6 py-3 font-sans text-sm font-medium text-navy transition-colors hover:bg-gray-50">
-              Watch: how REA works with property managers
+              Watch: how Vertex works with property managers
             </button>
           </div>
 
@@ -51,7 +51,7 @@ export function TestimonialSection() {
               ))}
             </div>
             <blockquote className="font-sans text-base leading-relaxed text-navy">
-              &ldquo;I highly recommend REA services. They truly are great and
+              &ldquo;I highly recommend Vertex services. They truly are great and
               have helped us tremendously. I felt very comfortable giving up all
               my accounting responsibilities to this team. Nothing less than an
               amazing experience!&rdquo;

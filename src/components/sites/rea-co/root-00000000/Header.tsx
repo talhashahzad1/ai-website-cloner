@@ -54,7 +54,7 @@ const dropdowns: NavDropdown[] = [
 ];
 
 const plainLinks = [
-  { label: "Meet REA", href: "/meet-rea/" },
+  { label: "Meet Vertex", href: "/meet-rea/" },
   { label: "Blog", href: "/blog/" },
 ];
 
@@ -176,8 +176,8 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex shrink-0 items-center">
           <Image
-            src="/sites/rea-co/shared/rea-logo.png"
-            alt="REA.co Real Estate Accounting & Tax"
+            src="/sites/rea-co/shared/vertex-logo.svg"
+            alt="Vertex Accounting Real Estate Accounting & Tax"
             width={180}
             height={48}
             unoptimized

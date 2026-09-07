@@ -82,7 +82,7 @@ const howItWorksSteps: HowItWorksStep[] = [
     number: 4,
     title: "Growth",
     description:
-      "Scale your portfolio confidently with REA as your accounting backbone.",
+      "Scale your portfolio confidently with Vertex as your accounting backbone.",
   },
 ];
 

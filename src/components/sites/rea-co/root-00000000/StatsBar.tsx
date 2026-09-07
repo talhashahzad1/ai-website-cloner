@@ -11,11 +11,11 @@ export function StatsBar() {
   return (
     <section
       className="dot-grid bg-[#07213a] py-16 lg:py-20"
-      aria-label="REA by the numbers"
+      aria-label="Vertex by the numbers"
     >
       <div className="mx-auto max-w-[1152px] px-6">
         <p className="mb-10 text-center text-xs font-normal uppercase tracking-widest text-[#51cec8]">
-          REA by the numbers
+          Vertex by the numbers
         </p>
         <div className="grid grid-cols-2 gap-8 lg:grid-cols-4 lg:gap-12">
           {stats.map((stat) => (

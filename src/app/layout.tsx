@@ -17,9 +17,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "REA Real Estate Bookkeeping - Outsourced Accounting & Tax",
+  title: "Vertex Accounting - Outsourced Real Estate Accounting & Tax",
   description:
-    "Elevate your real estate financial management with REA's accounting & tax services. Secure, accurate, & reliable solutions for property management.",
+    "Elevate your real estate financial management with Vertex Accounting's outsourced bookkeeping, tax, and lease compliance services. Secure, accurate, and reliable solutions for property managers and investors.",
 };
 
 export default function RootLayout({

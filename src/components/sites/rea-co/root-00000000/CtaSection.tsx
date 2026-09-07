@@ -33,7 +33,7 @@ export function CtaSection() {
             Ready to Streamline Your Accounting?
           </h2>
           <p className="mt-5 leading-relaxed text-white/80">
-            Schedule a call with our team to learn how REA&apos;s outsourced real
+            Schedule a call with our team to learn how Vertex&apos;s outsourced real
             estate accounting services can help you reduce costs, improve
             financial accuracy, and focus on growing your portfolio.
           </p>

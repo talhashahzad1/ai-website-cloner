@@ -32,7 +32,7 @@ export function ServicesSection() {
         <div className="relative order-last lg:order-first">
           <Image
             src="/sites/rea-co/root-00000000/images/residential-street.webp"
-            alt="Residential apartment buildings managed with REA bookkeeping"
+            alt="Residential apartment buildings managed with Vertex bookkeeping"
             width={600}
             height={450}
             className="w-full rounded-3xl object-cover shadow-[0_30px_60px_-25px_rgba(7,33,58,0.45)]"
