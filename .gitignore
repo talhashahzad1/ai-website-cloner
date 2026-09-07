@@ -47,3 +47,13 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# QA screenshots (large; kept on disk for review, not in git)
+docs/design-references/**/*.png
+docs/design-references/**/*.jpg
+docs/design-references/**/*.jpeg
+!docs/design-references/**/*.html
+!docs/design-references/**/*.md
+
+# Local MCP config
+.mcp.json

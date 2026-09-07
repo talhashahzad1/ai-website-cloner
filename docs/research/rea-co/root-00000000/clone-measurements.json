@@ -1,0 +1,115 @@
+{
+  "bodyHeight": 10035,
+  "sections": [
+    {
+      "id": "about",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 px-5 sm:px-8",
+      "top": 1085,
+      "height": 730,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "software",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 bg-sand px-5 sm:px-8",
+      "top": 1815,
+      "height": 787,
+      "bg": "rgb(247, 246, 242)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "services",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 px-5 sm:px-8",
+      "top": 2601,
+      "height": 857,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "technology",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 bg-sand px-5 sm:px-8",
+      "top": 3459,
+      "height": 1408,
+      "bg": "rgb(247, 246, 242)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "team",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 px-5 sm:px-8",
+      "top": 4866,
+      "height": 699,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "industries",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 relative isolate overflow-hidden bg-navy",
+      "top": 5565,
+      "height": 677,
+      "bg": "rgb(7, 33, 58)",
+      "bgImage": "none",
+      "padding": "0px"
+    },
+    {
+      "id": "people",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 px-5 sm:px-8",
+      "top": 6242,
+      "height": 903,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "qa",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 px-5 sm:px-8",
+      "top": 7630,
+      "height": 676,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "get-started",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 px-5 sm:px-8",
+      "top": 8305,
+      "height": 1174,
+      "bg": "rgb(7, 33, 58)",
+      "bgImage": "radial-gradient(circle, rgba(255, 255, 255, 0.09) 1px, rgba(",
+      "padding": "0px 32px"
+    }
+  ],
+  "header": {
+    "tag": "HEADER",
+    "id": "",
+    "classes": "sticky top-0 z-40 border-b border-[#dbe0e7] bg-white/95 backdrop-blur-[8px]",
+    "top": 0,
+    "height": 73,
+    "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.95)",
+    "bgImage": "none",
+    "padding": "0px"
+  },
+  "hero": {
+    "tag": "SECTION",
+    "id": "",
+    "classes": "relative isolate overflow-hidden bg-[#07213a]",
+    "top": 73,
+    "height": 732,
+    "bg": "rgb(7, 33, 58)",
+    "bgImage": "none",
+    "padding": "0px"
+  }
+}

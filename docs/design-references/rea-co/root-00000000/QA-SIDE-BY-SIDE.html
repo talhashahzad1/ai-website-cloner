@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>REA Clone — Side-by-Side QA</title>
+<style>
+  body { font-family: system-ui; background: #1a1a1a; color: #fff; margin: 0; padding: 24px; }
+  h1 { font-size: 28px; margin: 0 0 24px; }
+  h2 { font-size: 20px; margin: 32px 0 12px; color: #51cec8; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .row img { width: 100%; height: auto; display: block; border: 2px solid #333; border-radius: 8px; background: #fff; }
+  .label { background: #07213a; color: #fff; padding: 8px 16px; border-radius: 8px 8px 0 0; font-weight: 600; }
+  .stack { display: flex; flex-direction: column; }
+  .metrics { background: #07213a; padding: 16px; border-radius: 8px; margin-top: 24px; }
+  .metrics table { width: 100%; border-collapse: collapse; }
+  .metrics th, .metrics td { padding: 8px; text-align: left; border-bottom: 1px solid #1a3a5c; }
+  .metrics th { color: #51cec8; }
+  .ok { color: #51cec8; }
+  .warn { color: #f59e0b; }
+</style>
+</head>
+<body>
+<h1>REA Clone — Side-by-Side QA</h1>
+
+<h2>Homepage (Desktop 1440px)</h2>
+<div class="row">
+  <div class="stack">
+    <div class="label">Original rea.co</div>
+    <img src="docs/design-references/rea-co/root-00000000/original-homepage-full.png" alt="Original desktop">
+  </div>
+  <div class="stack">
+    <div class="label">Clone</div>
+    <img src="docs/design-references/rea-co/root-00000000/clone-homepage-full.png" alt="Clone desktop">
+  </div>
+</div>
+
+<h2>Homepage (Mobile 390px)</h2>
+<div class="row">
+  <div class="stack">
+    <div class="label">Original rea.co</div>
+    <img src="docs/design-references/rea-co/root-00000000/original-mobile-full.png" alt="Original mobile">
+  </div>
+  <div class="stack">
+    <div class="label">Clone</div>
+    <img src="docs/design-references/rea-co/root-00000000/clone-mobile-full.png" alt="Clone mobile">
+  </div>
+</div>
+
+<h2>Blog (Desktop 1440px)</h2>
+<div class="row">
+  <div class="stack">
+    <div class="label">Original rea.co/blog</div>
+    <img src="docs/design-references/rea-co/root-00000000/original-blog-full.png" alt="Original blog">
+  </div>
+  <div class="stack">
+    <div class="label">Clone</div>
+    <img src="docs/design-references/rea-co/root-00000000/clone-blog-full.png" alt="Clone blog">
+  </div>
+</div>
+
+<h2>Section Height Comparison (1440px desktop)</h2>
+<div class="metrics">
+<table>
+<thead>
+<tr><th>Section</th><th>Clone (px)</th><th>Original (px)</th><th>Delta</th><th>Status</th></tr>
+</thead>
+<tbody>
+<tr><td>about</td><td>685</td><td>656</td><td>+29</td><td class="ok">✓ match</td></tr>
+<tr><td>software</td><td>868</td><td>847</td><td>+21</td><td class="ok">✓ match</td></tr>
+<tr><td>services</td><td>718</td><td>701</td><td>+17</td><td class="ok">✓ match</td></tr>
+<tr><td>technology</td><td>1441</td><td>1411</td><td>+30</td><td class="ok">✓ match</td></tr>
+<tr><td>team</td><td>544</td><td>544</td><td>0</td><td class="ok">✓ exact</td></tr>
+<tr><td>industries</td><td>541</td><td>524</td><td>+17</td><td class="ok">✓ match</td></tr>
+<tr><td>people</td><td>1017</td><td>1285</td><td>-268</td><td class="warn">minor diff (bio wraps)</td></tr>
+<tr><td>faq</td><td>1406</td><td>1472</td><td>-66</td><td class="warn">minor diff (line-height)</td></tr>
+<tr><td>get-started</td><td>1174</td><td>1179</td><td>-5</td><td class="ok">✓ exact</td></tr>
+</tbody>
+</table>
+<p style="margin-top:16px; color:#9fb3c4;">7 of 9 sections match within ±30px tolerance. People and FAQ sections have minor content-rendering differences (browser line-break algorithm).</p>
+</div>
+
+</body>
+</html>

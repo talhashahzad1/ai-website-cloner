@@ -1,0 +1,106 @@
+{
+  "bodyHeight": 10600,
+  "sections": [
+    {
+      "id": "about",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 px-5 sm:px-8",
+      "top": 962,
+      "height": 656,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "software",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 bg-sand px-5 sm:px-8",
+      "top": 1618,
+      "height": 847,
+      "bg": "rgb(247, 246, 242)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "services",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 px-5 sm:px-8",
+      "top": 2465,
+      "height": 701,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "technology",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 bg-sand px-5 sm:px-8",
+      "top": 3166,
+      "height": 1411,
+      "bg": "rgb(247, 246, 242)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "team",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 px-5 sm:px-8",
+      "top": 4577,
+      "height": 544,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "industries",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 relative isolate overflow-hidden bg-navy",
+      "top": 5121,
+      "height": 524,
+      "bg": "rgb(7, 33, 58)",
+      "bgImage": "none",
+      "padding": "0px"
+    },
+    {
+      "id": "people",
+      "tag": "SECTION",
+      "classes": "px-5 sm:px-8",
+      "top": 5645,
+      "height": 1285,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "qa",
+      "tag": "SECTION",
+      "classes": "scroll-mt-20 px-5 sm:px-8",
+      "top": 7397,
+      "height": 1472,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "padding": "0px 32px"
+    },
+    {
+      "id": "get-started",
+      "tag": "SECTION",
+      "classes": "dot-grid scroll-mt-20 bg-navy px-5 sm:px-8",
+      "top": 8869,
+      "height": 1179,
+      "bg": "rgb(7, 33, 58)",
+      "bgImage": "radial-gradient(circle, rgba(255, 255, 255, 0.09) 1px, rgba(",
+      "padding": "0px 32px"
+    }
+  ],
+  "header": {
+    "tag": "HEADER",
+    "id": "",
+    "classes": "border-line sticky top-0 z-40 border-b bg-white/95 backdrop-blur-sm",
+    "top": 0,
+    "height": 73,
+    "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.95)",
+    "bgImage": "none",
+    "padding": "0px"
+  },
+  "hero": null
+}
