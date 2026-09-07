@@ -82,14 +82,16 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-x-8 gap-y-10 py-14 md:grid-cols-3 lg:grid-cols-[1.25fr_1fr_1fr_1fr_1fr_0.85fr]">
         {/* Logo + Description */}
         <div>
-          <Image
-            src="/sites/rea-co/shared/vertex-logo.svg"
-            alt="Vertex Accounting Real Estate Accounting & Tax"
-            height={52}
-            width={160}
-            className="h-12 w-auto"
-            unoptimized
-          />
+          <div className="inline-block rounded-md bg-white px-3 py-2">
+              <Image
+                src="/sites/rea-co/shared/vertex-logo.png"
+                alt="Vertex Accounting - Real Estate Accounting & Tax"
+                height={48}
+                width={160}
+                className="h-12 w-auto"
+                unoptimized
+              />
+            </div>
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/60">
             One of the largest real estate accounting firms in the US providing
             outsourced monthly bookkeeping, tax preparation, and lease
