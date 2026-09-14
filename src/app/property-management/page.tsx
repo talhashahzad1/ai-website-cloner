@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SiteLayout } from "@/components/sites/rea-co/shared/SiteLayout";
-import { SubPageHero } from "@/components/sites/rea-co/shared/SubPageHero";
-import { StatsBar } from "@/components/sites/rea-co/shared/StatsBar";
-import { TestimonialsSection } from "@/components/sites/rea-co/shared/TestimonialsSection";
-import { FaqSection } from "@/components/sites/rea-co/shared/FaqSection";
-import { FinalCta } from "@/components/sites/rea-co/shared/FinalCta";
+import { SiteLayout } from "@/components/sites/vertex-accounting/shared/SiteLayout";
+import { SubPageHero } from "@/components/sites/vertex-accounting/shared/SubPageHero";
+import { StatsBar } from "@/components/sites/vertex-accounting/shared/StatsBar";
+import { TestimonialsSection } from "@/components/sites/vertex-accounting/shared/TestimonialsSection";
+import { FaqSection } from "@/components/sites/vertex-accounting/shared/FaqSection";
+import { FinalCta } from "@/components/sites/vertex-accounting/shared/FinalCta";
 
 export const metadata: Metadata = {
   title: "Property Management Accounting Services & Bookkeeping | REA",
@@ -84,7 +84,7 @@ export default function PropertyManagementPage() {
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {reasons.map((r) => (
               <div key={r.title} className="rounded-2xl border border-[#dbe0e7] bg-white p-6 shadow-sm">
-                <h3 className="font-heading text-base font-semibold text-[#20949d]">{r.title}</h3>
+                <h3 className="font-heading text-base font-semibold text-[#4772ED]">{r.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-[#435e6b]">{r.description}</p>
               </div>
             ))}
@@ -100,7 +100,7 @@ export default function PropertyManagementPage() {
           </h2>
           <div className="mt-10 flex flex-wrap justify-center gap-3">
             {softwareLinks.map((s) => (
-              <Link key={s.name} href={s.href} className="rounded-full border border-[#dbe0e7] bg-white px-5 py-2.5 text-sm font-medium text-[#07213a] transition-colors hover:border-[#20949d] hover:text-[#20949d]">
+              <Link key={s.name} href={s.href} className="rounded-full border border-[#dbe0e7] bg-white px-5 py-2.5 text-sm font-medium text-[#07213a] transition-colors hover:border-[#4772ED] hover:text-[#4772ED]">
                 {s.name}
               </Link>
             ))}
@@ -120,7 +120,7 @@ export default function PropertyManagementPage() {
               <div key={s.title} className="rounded-2xl border border-[#dbe0e7] bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
                 <h3 className="font-heading text-base font-semibold text-[#07213a]">{s.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-[#435e6b]">{s.description}</p>
-                <Link href="#get-started" className="mt-4 inline-block text-sm font-medium text-[#20949d] hover:underline">See how it works →</Link>
+                <Link href="#get-started" className="mt-4 inline-block text-sm font-medium text-[#4772ED] hover:underline">See how it works →</Link>
               </div>
             ))}
           </div>
@@ -137,7 +137,7 @@ export default function PropertyManagementPage() {
           <div className="mt-12 space-y-8">
             {steps.map((step, i) => (
               <div key={step.title} className="flex gap-6 rounded-2xl border border-[#dbe0e7] bg-white p-6 shadow-sm">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#20949d] font-heading text-sm font-bold text-white">{i + 1}</div>
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#4772ED] font-heading text-sm font-bold text-white">{i + 1}</div>
                 <div>
                   <h3 className="font-heading text-base font-semibold text-[#07213a]">{step.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-[#435e6b]">{step.description}</p>

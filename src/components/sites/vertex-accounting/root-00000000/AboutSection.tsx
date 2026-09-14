@@ -36,7 +36,7 @@ export function AboutSection() {
         {/* Right Column */}
         <figure className="relative">
           <Image
-            src="/sites/rea-co/root-00000000/images/founders-adam-mark.webp"
+            src="/sites/vertex-accounting/root-00000000/images/founders-adam-mark.webp"
             alt="Adam & Mark, Co-Founders"
             width={600}
             height={450}

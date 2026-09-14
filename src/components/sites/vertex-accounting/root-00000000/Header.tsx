@@ -54,7 +54,7 @@ const dropdowns: NavDropdown[] = [
 ];
 
 const plainLinks = [
-  { label: "Meet Vertex", href: "/meet-rea/" },
+  { label: "Meet Vertex", href: "/meet-vertex/" },
   { label: "Blog", href: "/blog/" },
 ];
 
@@ -176,8 +176,8 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex shrink-0 items-center">
           <Image
-            src="/sites/rea-co/shared/vertex-logo.png"
-            alt="Vertex Accounting - Real Estate Accounting & Tax"
+            src="/sites/vertex-accounting/shared/vertex-logo.png"
+            alt="Vertex Accounting - Outsourced Accounting & Tax"
             width={180}
             height={48}
             unoptimized
@@ -193,7 +193,7 @@ export function Header() {
                 <button
                   type="button"
                   onClick={() => handleDropdownToggle(dropdown.label)}
-                  className="flex items-center gap-1.5 rounded-full px-3 py-2 font-heading text-[0.9rem] text-[#121c2b] transition-colors hover:text-[#20949d]"
+                  className="flex items-center gap-1.5 rounded-full px-3 py-2 font-heading text-[0.9rem] text-[#121c2b] transition-colors hover:text-[#4772ED]"
                 >
                   {dropdown.label}
                   <ChevronIcon
@@ -208,7 +208,7 @@ export function Header() {
                         key={item.href}
                         href={item.href}
                         onClick={() => setOpenDropdown(null)}
-                        className="block rounded-lg px-4 py-2.5 text-sm text-[#121c2b] transition-colors hover:bg-[#f7f6f2] hover:text-[#20949d]"
+                        className="block rounded-lg px-4 py-2.5 text-sm text-[#121c2b] transition-colors hover:bg-[#f7f6f2] hover:text-[#4772ED]"
                       >
                         {item.label}
                       </Link>
@@ -221,7 +221,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="rounded-full px-3 py-2 font-heading text-[0.9rem] text-[#121c2b] transition-colors hover:text-[#20949d]"
+                className="rounded-full px-3 py-2 font-heading text-[0.9rem] text-[#121c2b] transition-colors hover:text-[#4772ED]"
               >
                 {link.label}
               </Link>
@@ -229,7 +229,7 @@ export function Header() {
           </nav>
           <Link
             href="/thank-you/"
-            className="ml-2 rounded-full bg-[#20949d] text-[13.28px] font-semibold text-white transition-colors hover:bg-[#1a7a82]"
+            className="ml-2 rounded-full bg-[#4772ED] text-[13.28px] font-semibold text-white transition-colors hover:bg-[#3a5fcc]"
             style={{ padding: "9.92px 22.4px" }}
           >
             Schedule a Call
@@ -240,7 +240,7 @@ export function Header() {
         <div className="flex items-center gap-3 lg:hidden">
           <Link
             href="/thank-you/"
-            className="rounded-full bg-[#20949d] text-[13.28px] font-semibold text-white transition-colors hover:bg-[#1a7a82]"
+            className="rounded-full bg-[#4772ED] text-[13.28px] font-semibold text-white transition-colors hover:bg-[#3a5fcc]"
             style={{ padding: "9.92px 22.4px" }}
           >
             Schedule a Call
@@ -280,7 +280,7 @@ export function Header() {
                         key={item.href}
                         href={item.href}
                         onClick={() => setMobileOpen(false)}
-                        className="block py-2.5 text-sm text-[#435e6b] transition-colors hover:text-[#20949d]"
+                        className="block py-2.5 text-sm text-[#435e6b] transition-colors hover:text-[#4772ED]"
                       >
                         {item.label}
                       </Link>
@@ -304,14 +304,14 @@ export function Header() {
               <Link
                 href="/thank-you/"
                 onClick={() => setMobileOpen(false)}
-                className="mb-3 block font-heading text-base font-medium text-[#20949d]"
+                className="mb-3 block font-heading text-base font-medium text-[#4772ED]"
               >
                 Let&apos;s Connect
               </Link>
               <Link
                 href="/thank-you/"
                 onClick={() => setMobileOpen(false)}
-                className="inline-block rounded-full bg-[#20949d] px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#1a7a82]"
+                className="inline-block rounded-full bg-[#4772ED] px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#3a5fcc]"
               >
                 Schedule a Call
               </Link>

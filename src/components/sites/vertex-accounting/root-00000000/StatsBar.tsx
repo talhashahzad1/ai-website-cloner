@@ -14,7 +14,7 @@ export function StatsBar() {
       aria-label="Vertex by the numbers"
     >
       <div className="mx-auto max-w-[1152px] px-6">
-        <p className="mb-10 text-center text-xs font-normal uppercase tracking-widest text-[#51cec8]">
+        <p className="mb-10 text-center text-xs font-normal uppercase tracking-widest text-[#6b8aff]">
           Vertex by the numbers
         </p>
         <div className="grid grid-cols-2 gap-8 lg:grid-cols-4 lg:gap-12">

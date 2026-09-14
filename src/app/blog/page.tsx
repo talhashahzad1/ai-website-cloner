@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { SiteLayout } from "@/components/sites/rea-co/shared/SiteLayout";
-import { FinalCta } from "@/components/sites/rea-co/shared/FinalCta";
+import { SiteLayout } from "@/components/sites/vertex-accounting/shared/SiteLayout";
+import { FinalCta } from "@/components/sites/vertex-accounting/shared/FinalCta";
 
 export const metadata: Metadata = {
   title: "Real Estate Articles, Resources and Education For Property Investors",
@@ -24,7 +24,7 @@ const featuredPost: Post = {
   excerpt:
     "Outsourced real estate accounting in Denver gives property owners and managers accurate books, tighter cash flow, and audit-ready financial reporting without hiring an in-house team. REA's Real Estate Accounting specialists handle month-end close, owner statements, and tax-ready books for Denver portfolios.",
   date: "September 4, 2026",
-  image: "/sites/rea-co/shared/blog/outsourced-real-estate-accounting-in-denver-hero.webp",
+  image: "/sites/vertex-accounting/shared/blog/outsourced-real-estate-accounting-in-denver-hero.webp",
   slug: "/outsourced-real-estate-accounting-in-denver/",
   featured: true,
 };
@@ -35,7 +35,7 @@ const posts: Post[] = [
     excerpt:
       "MRI vs Yardi Voyager for commercial portfolios rarely has one clean winner. MRI leans toward flexible reporting for mixed-use owners; Yardi Voyager brings scale and tighter integrations for large multifamily operations.",
     date: "September 3, 2026",
-    image: "/sites/rea-co/shared/blog/mri-vs-yardi-voyager-commercial-portfolios-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/mri-vs-yardi-voyager-commercial-portfolios-hero.webp",
     slug: "/mri-vs-yardi-voyager-commercial-portfolios/",
   },
   {
@@ -43,7 +43,7 @@ const posts: Post[] = [
     excerpt:
       "Missing a single renewal deadline can cost a landlord an anchor tenant or cost a tenant a location the business depends on. Critical date tracking turns every lease clause into an actionable calendar item.",
     date: "August 29, 2026",
-    image: "/sites/rea-co/shared/blog/critical-date-tracking-lease-abstraction-options-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/critical-date-tracking-lease-abstraction-options-hero.webp",
     slug: "/critical-date-tracking-lease-abstraction-options/",
   },
   {
@@ -51,7 +51,7 @@ const posts: Post[] = [
     excerpt:
       "QuickBooks classes for rental property portfolios let you split income and expenses by building, unit, or fund inside a single company file — without opening a separate QuickBooks file for every property.",
     date: "September 1, 2026",
-    image: "/sites/rea-co/shared/blog/quickbooks-classes-vs-locations-rental-property-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/quickbooks-classes-vs-locations-rental-property-hero.webp",
     slug: "/quickbooks-classes-vs-locations-rental-property/",
   },
   {
@@ -59,7 +59,7 @@ const posts: Post[] = [
     excerpt:
       "Charlotte's office towers, retail centers, and industrial parks each carry accounting complexity that generic bookkeeping can't handle. Specialized CRE accounting gives you tenant-level visibility.",
     date: "August 28, 2026",
-    image: "/sites/rea-co/shared/blog/commercial-real-estate-accounting-in-charlotte-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/commercial-real-estate-accounting-in-charlotte-hero.webp",
     slug: "/commercial-real-estate-accounting-in-charlotte/",
   },
   {
@@ -67,7 +67,7 @@ const posts: Post[] = [
     excerpt:
       "Straight-line rent spreads a commercial lease's total rent, free rent months included, evenly across the full lease term so your financials reflect the true economics of every deal.",
     date: "August 27, 2026",
-    image: "/sites/rea-co/shared/blog/straight-line-rent-commercial-landlords-deferred-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/straight-line-rent-commercial-landlords-deferred-hero.webp",
     slug: "/straight-line-rent-commercial-landlords-deferred/",
   },
   {
@@ -75,7 +75,7 @@ const posts: Post[] = [
     excerpt:
       "Outsourced accounting for property management companies in Seattle solves a problem local firms can't outsource away on their own: reconciliations that close on time, every month.",
     date: "August 26, 2026",
-    image: "/sites/rea-co/shared/blog/outsourced-accounting-property-management-companies-seattle-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/outsourced-accounting-property-management-companies-seattle-hero.webp",
     slug: "/outsourced-accounting-property-management-companies-seattle/",
   },
   {
@@ -83,7 +83,7 @@ const posts: Post[] = [
     excerpt:
       "LIHTC compliance accounting keeps a Low-Income Housing Tax Credit (LIHTC) property eligible for its credits by tying tenant income certifications to unit-level reporting throughout the compliance period.",
     date: "August 25, 2026",
-    image: "/sites/rea-co/shared/blog/lihtc-compliance-accounting-income-certifications-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/lihtc-compliance-accounting-income-certifications-hero.webp",
     slug: "/lihtc-compliance-accounting-income-certifications/",
   },
   {
@@ -91,7 +91,7 @@ const posts: Post[] = [
     excerpt:
       "Orange County property owners juggling Prop 13 assessments, rent control disclosures, and multi-entity tax filings often reach a breaking point — outsourced REA teams bring order to the books.",
     date: "August 24, 2026",
-    image: "/sites/rea-co/shared/blog/outsourced-real-estate-accounting-in-orange-county-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/outsourced-real-estate-accounting-in-orange-county-hero.webp",
     slug: "/outsourced-real-estate-accounting-in-orange-county/",
   },
   {
@@ -99,7 +99,7 @@ const posts: Post[] = [
     excerpt:
       "When a lease charges residents for water, sewer, or trash based on square footage instead of a submeter, that charge comes through a Ratio Utility Billing System (RUBS) — and accounting for it is its own workflow.",
     date: "August 23, 2026",
-    image: "/sites/rea-co/shared/blog/rubs-utility-billback-accounting-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/rubs-utility-billback-accounting-hero.webp",
     slug: "/rubs-utility-billback-accounting/",
   },
   {
@@ -107,7 +107,7 @@ const posts: Post[] = [
     excerpt:
       "Commercial real estate accounting in Seattle covers far more than monthly bookkeeping: office, retail, and industrial landlords face unique compliance demands around tenant CAM reconciliations.",
     date: "August 22, 2026",
-    image: "/sites/rea-co/shared/blog/commercial-real-estate-accounting-seattle-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/commercial-real-estate-accounting-seattle-hero.webp",
     slug: "/commercial-real-estate-accounting-seattle/",
   },
   {
@@ -115,7 +115,7 @@ const posts: Post[] = [
     excerpt:
       "When a homeowners association can't cover a major repair from its reserve fund, the HOA board levies a special assessment to bill unit owners — and the accounting trail has to be airtight.",
     date: "August 21, 2026",
-    image: "/sites/rea-co/shared/blog/hoa-special-assessment-accounting-billing-hero.webp",
+    image: "/sites/vertex-accounting/shared/blog/hoa-special-assessment-accounting-billing-hero.webp",
     slug: "/hoa-special-assessment-accounting-billing/",
   },
 ];
@@ -138,7 +138,7 @@ function PostCard({ post, large = false }: { post: Post; large?: boolean }) {
           {post.date}
         </span>
         <h3
-          className={`mt-2 font-heading font-semibold text-[#07213a] group-hover:text-[#20949d] ${
+          className={`mt-2 font-heading font-semibold text-[#07213a] group-hover:text-[#4772ED] ${
             large ? "text-2xl" : "text-base"
           }`}
         >
@@ -154,7 +154,7 @@ function PostCard({ post, large = false }: { post: Post; large?: boolean }) {
         <div className="mt-4">
           <Link
             href={post.slug}
-            className="text-sm font-medium text-[#20949d] hover:underline"
+            className="text-sm font-medium text-[#4772ED] hover:underline"
           >
             Read →
           </Link>
@@ -178,7 +178,7 @@ export default function BlogPage() {
         }}
       >
         <div className="mx-auto max-w-4xl text-center">
-          <p className="font-sans text-xs uppercase tracking-widest text-[#51cec8]">
+          <p className="font-sans text-xs uppercase tracking-widest text-[#6b8aff]">
             Resources
           </p>
           <h1 className="mt-4 font-heading text-[clamp(2rem,4.5vw,3rem)] font-semibold leading-[1.12] tracking-[-0.025em] text-white">

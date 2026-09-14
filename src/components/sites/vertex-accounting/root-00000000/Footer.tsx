@@ -60,9 +60,9 @@ const footerColumns = [
     title: "Company",
     links: [
       { label: "About Us", href: "/about/" },
-      { label: "Meet Vertex", href: "/meet-rea/" },
+      { label: "Meet Vertex", href: "/meet-vertex/" },
       { label: "Resources", href: "/blog/" },
-      { label: "Careers", href: "/working-at-rea/" },
+      { label: "Careers", href: "/careers/" },
       { label: "Locations", href: "/locations/" },
       { label: "Pricing", href: "/pricing/" },
     ],
@@ -70,10 +70,10 @@ const footerColumns = [
 ];
 
 const socialLinks = [
-  { icon: LinkedInIcon, label: "Vertex on LinkedIn", href: "https://www.linkedin.com/company/realestateaccountingco/" },
-  { icon: XTwitterIcon, label: "Vertex on X", href: "https://twitter.com/reabookkeeping" },
-  { icon: InstagramIcon, label: "Vertex on Instagram", href: "https://www.instagram.com/reaaccounting/" },
-  { icon: FacebookIcon, label: "Vertex on Facebook", href: "https://www.facebook.com/reabookkeeping" },
+  { icon: LinkedInIcon, label: "Vertex on LinkedIn", href: "https://www.linkedin.com/company/vertexaccounting/" },
+  { icon: XTwitterIcon, label: "Vertex on X", href: "https://twitter.com/vertexaccounting" },
+  { icon: InstagramIcon, label: "Vertex on Instagram", href: "https://www.instagram.com/vertexaccounting/" },
+  { icon: FacebookIcon, label: "Vertex on Facebook", href: "https://www.facebook.com/vertexaccounting" },
 ];
 
 export function Footer() {
@@ -84,8 +84,8 @@ export function Footer() {
         <div>
           <div className="inline-block rounded-md bg-white px-3 py-2">
               <Image
-                src="/sites/rea-co/shared/vertex-logo.png"
-                alt="Vertex Accounting - Real Estate Accounting & Tax"
+                src="/sites/vertex-accounting/shared/vertex-logo.png"
+                alt="Vertex Accounting - Outsourced Accounting & Tax"
                 height={48}
                 width={160}
                 className="h-12 w-auto"
@@ -93,16 +93,15 @@ export function Footer() {
               />
             </div>
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/60">
-            One of the largest real estate accounting firms in the US providing
-            outsourced monthly bookkeeping, tax preparation, and lease
-            compliance services.
+            One of the largest accounting firms in the US providing outsourced
+            monthly bookkeeping, tax preparation, and lease compliance services.
           </p>
         </div>
 
         {/* Nav Columns */}
         {footerColumns.map((column) => (
           <nav key={column.title} aria-label={column.title}>
-            <p className="font-heading text-[0.9rem] font-semibold text-[#51cec8]">
+            <p className="font-heading text-[0.9rem] font-semibold text-[#6b8aff]">
               {column.title}
             </p>
             <ul className="mt-4 space-y-2">
@@ -110,7 +109,7 @@ export function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-[0.85rem] font-semibold text-white/60 transition-colors hover:text-[#51cec8]"
+                    className="text-[0.85rem] font-semibold text-white/60 transition-colors hover:text-[#6b8aff]"
                   >
                     {link.label}
                   </Link>
@@ -135,17 +134,17 @@ export function Footer() {
             <div className="mt-3 flex flex-wrap items-center gap-4 text-[13px] text-white/60">
               <a
                 href="tel:8583586008"
-                className="flex items-center gap-1.5 transition-colors hover:text-[#51cec8]"
+                className="flex items-center gap-1.5 transition-colors hover:text-[#6b8aff]"
               >
                 <PhoneIcon className="h-4 w-4" />
                 (858) 358-6008
               </a>
               <a
-                href="mailto:hello@rea.co"
-                className="flex items-center gap-1.5 transition-colors hover:text-[#51cec8]"
+                href="mailto:info@vertexaccounting.com"
+                className="flex items-center gap-1.5 transition-colors hover:text-[#6b8aff]"
               >
                 <MailIcon className="h-4 w-4" />
-                hello@rea.co
+                info@vertexaccounting.com
               </a>
             </div>
           </div>
@@ -155,13 +154,13 @@ export function Footer() {
             <div className="flex items-center gap-4">
               <a
                 href="#get-started"
-                className="rounded-lg bg-[#20949d] px-6 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#1a7a82]"
+                className="rounded-lg bg-[#4772ED] px-6 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#3a5fcc]"
               >
                 Let&apos;s Connect
               </a>
               <a
                 href="#"
-                className="text-sm text-white/40 transition-colors hover:text-[#51cec8]"
+                className="text-sm text-white/40 transition-colors hover:text-[#6b8aff]"
               >
                 Privacy Policy
               </a>
@@ -172,7 +171,7 @@ export function Footer() {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
-                  className="text-white/40 transition-colors hover:text-[#51cec8]"
+                  className="text-white/40 transition-colors hover:text-[#6b8aff]"
                 >
                   <social.icon className="h-5 w-5" />
                 </a>

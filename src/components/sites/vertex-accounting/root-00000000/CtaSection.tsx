@@ -18,7 +18,7 @@ export function CtaSection() {
   return (
     <section
       id="get-started"
-      className="scroll-mt-20 px-5 sm:px-8"
+      className="px-5 sm:px-8"
       style={{
         backgroundColor: "#07213a",
         backgroundImage:

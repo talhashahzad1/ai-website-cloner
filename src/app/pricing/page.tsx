@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SiteLayout } from "@/components/sites/rea-co/shared/SiteLayout";
-import { SubPageHero } from "@/components/sites/rea-co/shared/SubPageHero";
-import { FinalCta } from "@/components/sites/rea-co/shared/FinalCta";
+import { SiteLayout } from "@/components/sites/vertex-accounting/shared/SiteLayout";
+import { SubPageHero } from "@/components/sites/vertex-accounting/shared/SubPageHero";
+import { FinalCta } from "@/components/sites/vertex-accounting/shared/FinalCta";
 
 export const metadata: Metadata = {
   title: "Pricing | REA",
@@ -73,7 +73,7 @@ export default function PricingPage() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {pricingFactors.map((f) => (
               <div key={f.title} className="rounded-2xl border border-[#dbe0e7] bg-white p-6 shadow-sm text-center">
-                <h3 className="font-heading text-sm font-semibold text-[#20949d]">{f.title}</h3>
+                <h3 className="font-heading text-sm font-semibold text-[#4772ED]">{f.title}</h3>
                 <p className="mt-2 text-sm text-[#435e6b]">{f.description}</p>
               </div>
             ))}
@@ -94,11 +94,11 @@ export default function PricingPage() {
               <div
                 key={plan.name}
                 className={`relative rounded-2xl border bg-white p-6 shadow-sm ${
-                  plan.popular ? "border-[#20949d] shadow-md" : "border-[#dbe0e7]"
+                  plan.popular ? "border-[#4772ED] shadow-md" : "border-[#dbe0e7]"
                 }`}
               >
                 {plan.popular && (
-                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[#20949d] px-4 py-1 text-xs font-semibold text-white">
+                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[#4772ED] px-4 py-1 text-xs font-semibold text-white">
                     Most Popular
                   </span>
                 )}
@@ -107,7 +107,7 @@ export default function PricingPage() {
                 <ul className="mt-6 space-y-3">
                   {plan.features.map((f) => (
                     <li key={f} className="flex items-start gap-2 text-sm text-[#435e6b]">
-                      <svg className="mt-0.5 h-4 w-4 shrink-0 text-[#20949d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg className="mt-0.5 h-4 w-4 shrink-0 text-[#4772ED]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       {f}
@@ -118,8 +118,8 @@ export default function PricingPage() {
                   href="#get-started"
                   className={`mt-8 block rounded-full py-3 text-center text-sm font-semibold transition-colors ${
                     plan.popular
-                      ? "bg-[#20949d] text-white hover:bg-[#1a7a82]"
-                      : "border border-[#dbe0e7] text-[#07213a] hover:border-[#20949d] hover:text-[#20949d]"
+                      ? "bg-[#4772ED] text-white hover:bg-[#3a5fcc]"
+                      : "border border-[#dbe0e7] text-[#07213a] hover:border-[#4772ED] hover:text-[#4772ED]"
                   }`}
                 >
                   Get a Quote

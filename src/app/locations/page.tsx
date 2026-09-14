@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { SiteLayout } from "@/components/sites/rea-co/shared/SiteLayout";
-import { SubPageHero } from "@/components/sites/rea-co/shared/SubPageHero";
-import { FinalCta } from "@/components/sites/rea-co/shared/FinalCta";
+import { SiteLayout } from "@/components/sites/vertex-accounting/shared/SiteLayout";
+import { SubPageHero } from "@/components/sites/vertex-accounting/shared/SubPageHero";
+import { FinalCta } from "@/components/sites/vertex-accounting/shared/FinalCta";
 
 export const metadata: Metadata = {
   title: "Locations | REA",

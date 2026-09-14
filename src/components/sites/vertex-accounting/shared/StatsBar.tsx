@@ -8,7 +8,7 @@ export function StatsBar({ stats }: StatsBarProps) {
       <div className="mx-auto grid max-w-5xl grid-cols-2 gap-8 md:grid-cols-4">
         {stats.map((stat) => (
           <div key={stat.label} className="text-center">
-            <div className="font-heading text-3xl font-bold text-[#20949d]">
+            <div className="font-heading text-3xl font-bold text-[#4772ED]">
               {stat.value}
             </div>
             <div className="mt-1 text-sm text-[#435e6b]">{stat.label}</div>

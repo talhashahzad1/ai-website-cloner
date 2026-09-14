@@ -46,12 +46,12 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
-  /* REA.co brand colors */
+  /* Vertex Accounting brand colors */
   --color-navy: #07213a;
   --color-navy-light: #0d3355;
-  --color-teal: #20949d;
-  --color-teal-dark: #1a7a82;
-  --color-teal-light: #51cec8;
+  --color-teal: #4772ED;
+  --color-teal-dark: #3a5fcc;
+  --color-teal-light: #6b8aff;
   --color-sand: #f7f6f2;
   --color-sand-dark: #e8e6de;
   --color-slate: #435e6b;
@@ -66,32 +66,32 @@
   --card-foreground: #121c2b;
   --popover: #ffffff;
   --popover-foreground: #121c2b;
-  --primary: #20949d;
+  --primary: #4772ED;
   --primary-foreground: #ffffff;
   --secondary: #f7f6f2;
   --secondary-foreground: #121c2b;
   --muted: #f7f6f2;
   --muted-foreground: #435e6b;
-  --accent: #51cec8;
+  --accent: #6b8aff;
   --accent-foreground: #07213a;
   --destructive: #dc2626;
   --border: #dbe0e7;
   --input: #dbe0e7;
-  --ring: #20949d;
-  --chart-1: #20949d;
-  --chart-2: #51cec8;
+  --ring: #4772ED;
+  --chart-1: #4772ED;
+  --chart-2: #6b8aff;
   --chart-3: #07213a;
   --chart-4: #435e6b;
   --chart-5: #9fb3c4;
   --radius: 0.5rem;
   --sidebar: #ffffff;
   --sidebar-foreground: #121c2b;
-  --sidebar-primary: #20949d;
+  --sidebar-primary: #4772ED;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #f7f6f2;
   --sidebar-accent-foreground: #121c2b;
   --sidebar-border: #dbe0e7;
-  --sidebar-ring: #20949d;
+  --sidebar-ring: #4772ED;
 }
 
 @layer base {
@@ -117,19 +117,19 @@
     background-color: #f7f6f2;
   }
   .bg-teal {
-    background-color: #20949d;
+    background-color: #4772ED;
   }
   .bg-teal-light {
-    background-color: #51cec8;
+    background-color: #6b8aff;
   }
   .text-navy {
     color: #07213a;
   }
   .text-teal {
-    color: #20949d;
+    color: #4772ED;
   }
   .text-teal-light {
-    color: #51cec8;
+    color: #6b8aff;
   }
   .text-slate {
     color: #435e6b;

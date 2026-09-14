@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { SiteLayout } from "@/components/sites/rea-co/shared/SiteLayout";
-import { SubPageHero } from "@/components/sites/rea-co/shared/SubPageHero";
-import { StatsBar } from "@/components/sites/rea-co/shared/StatsBar";
-import { FinalCta } from "@/components/sites/rea-co/shared/FinalCta";
+import { SiteLayout } from "@/components/sites/vertex-accounting/shared/SiteLayout";
+import { SubPageHero } from "@/components/sites/vertex-accounting/shared/SubPageHero";
+import { StatsBar } from "@/components/sites/vertex-accounting/shared/StatsBar";
+import { FinalCta } from "@/components/sites/vertex-accounting/shared/FinalCta";
 
 export const metadata: Metadata = {
   title: "About REA | Real Estate Accounting & Tax",
@@ -58,7 +58,7 @@ export default function AboutPage() {
           <div className="mt-12 grid gap-6 md:grid-cols-2">
             {values.map((v) => (
               <div key={v.title} className="rounded-2xl border border-[#dbe0e7] bg-white p-6 shadow-sm">
-                <h3 className="font-heading text-base font-semibold text-[#20949d]">{v.title}</h3>
+                <h3 className="font-heading text-base font-semibold text-[#4772ED]">{v.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-[#435e6b]">{v.description}</p>
               </div>
             ))}
@@ -74,7 +74,7 @@ export default function AboutPage() {
           <div className="mt-10 space-y-8">
             {timeline.map((t) => (
               <div key={t.year} className="flex gap-6">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#20949d] font-heading text-sm font-bold text-white">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#4772ED] font-heading text-sm font-bold text-white">
                   {t.year.charAt(0)}
                 </div>
                 <div>

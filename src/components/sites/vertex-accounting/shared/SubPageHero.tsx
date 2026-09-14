@@ -75,7 +75,7 @@ export function SubPageHero({
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Link
             href={CTAHref}
-            className="rounded-full bg-[#20949d] px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#1a7a82]"
+            className="rounded-full bg-[#4772ED] px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#3a5fcc]"
           >
             {CTALabel}
           </Link>

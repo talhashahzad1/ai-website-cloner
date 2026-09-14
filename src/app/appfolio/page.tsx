@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SiteLayout } from "@/components/sites/rea-co/shared/SiteLayout";
-import { SubPageHero } from "@/components/sites/rea-co/shared/SubPageHero";
-import { StatsBar } from "@/components/sites/rea-co/shared/StatsBar";
-import { TestimonialsSection } from "@/components/sites/rea-co/shared/TestimonialsSection";
-import { FaqSection } from "@/components/sites/rea-co/shared/FaqSection";
-import { FinalCta } from "@/components/sites/rea-co/shared/FinalCta";
+import { SiteLayout } from "@/components/sites/vertex-accounting/shared/SiteLayout";
+import { SubPageHero } from "@/components/sites/vertex-accounting/shared/SubPageHero";
+import { StatsBar } from "@/components/sites/vertex-accounting/shared/StatsBar";
+import { TestimonialsSection } from "@/components/sites/vertex-accounting/shared/TestimonialsSection";
+import { FaqSection } from "@/components/sites/vertex-accounting/shared/FaqSection";
+import { FinalCta } from "@/components/sites/vertex-accounting/shared/FinalCta";
 
 export const metadata: Metadata = {
   title: "AppFolio Bookkeeping Services for Property Managers | REA",
@@ -142,7 +142,7 @@ export default function AppFolioPage() {
       <SubPageHero
         title="Expert AppFolio Bookkeeping Services For Scaling Property Investors & Managers"
         description="Cost-effective, accurate, on-time bookkeeping for AppFolio users. As a certified Stack™ partner, we work directly inside your AppFolio instance."
-        badgeImage="/sites/rea-co/root-00000000/images/appfolio-stack-badge.png"
+        badgeImage="/sites/vertex-accounting/root-00000000/images/appfolio-stack-badge.png"
         badgeLabel="AppFolio Stack™ Solution Partner"
         showDotGrid
       />
@@ -172,7 +172,7 @@ export default function AppFolioPage() {
                 </p>
                 <Link
                   href="#get-started"
-                  className="mt-4 inline-block text-sm font-medium text-[#20949d] hover:underline"
+                  className="mt-4 inline-block text-sm font-medium text-[#4772ED] hover:underline"
                 >
                   See how it works →
                 </Link>
@@ -197,7 +197,7 @@ export default function AppFolioPage() {
                 key={step.title}
                 className="flex gap-6 rounded-2xl border border-[#dbe0e7] bg-white p-6 shadow-sm"
               >
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#20949d] font-heading text-sm font-bold text-white">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#4772ED] font-heading text-sm font-bold text-white">
                   {i + 1}
                 </div>
                 <div>
@@ -214,7 +214,7 @@ export default function AppFolioPage() {
           <div className="mt-10 text-center">
             <Link
               href="#get-started"
-              className="rounded-full bg-[#20949d] px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#1a7a82]"
+              className="rounded-full bg-[#4772ED] px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#3a5fcc]"
             >
               Start With a Call
             </Link>

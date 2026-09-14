@@ -4,7 +4,7 @@ import type { IndustryLink } from "@/types/rea-co";
 
 const industries: IndustryLink[] = [
   { label: "Property Management", href: "/property-management/" },
-  { label: "Commercial Real Estate", href: "/commercial/" },
+  { label: "Commercial RE", href: "/commercial/" },
   { label: "Owner Operators", href: "/owner-operators/" },
   { label: "Developers", href: "/developers/" },
   { label: "Construction", href: "/construction/" },
@@ -21,7 +21,7 @@ export function IndustriesSection() {
     >
       {/* Background Image */}
       <Image
-        src="/sites/rea-co/root-00000000/images/commercial-aerial.webp"
+        src="/sites/vertex-accounting/root-00000000/images/commercial-aerial.webp"
         alt=""
         aria-hidden
         fill
@@ -43,7 +43,7 @@ export function IndustriesSection() {
             Industries We Work With
           </h2>
           <h3 className="mt-2 text-[1.08rem] font-bold leading-snug text-teal-light">
-            Specialized Expertise Across Every Real Estate Vertical
+            Specialized Expertise Across Every Vertical
           </h3>
           <p className="measure mt-5 leading-relaxed text-white/80">
             From property management and commercial real estate to HOAs,
@@ -59,7 +59,7 @@ export function IndustriesSection() {
                 href={industry.href}
                 className="group flex items-center justify-between gap-3 rounded-xl border border-white/20 bg-white/10 px-5 py-4 backdrop-blur-sm transition-colors hover:border-teal/60 hover:bg-white/15"
               >
-                <span className="font-heading text-[0.98rem] font-semibold text-white">
+                <span className="whitespace-nowrap font-heading text-[0.98rem] font-semibold text-white">
                   {industry.label}
                 </span>
                 <span

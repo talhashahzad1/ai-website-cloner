@@ -80,7 +80,7 @@ export function SoftwareSection() {
               <div className="flex flex-col items-center gap-3 rounded-xl border border-[#dbe0e7] bg-white p-6 transition-shadow hover:shadow-lg">
                 {item.logo ? (
                   <Image
-                    src={`/sites/rea-co/root-00000000/images/${item.logo}`}
+                    src={`/sites/vertex-accounting/root-00000000/images/${item.logo}`}
                     alt={item.logoAlt ?? item.name}
                     width={120}
                     height={36}

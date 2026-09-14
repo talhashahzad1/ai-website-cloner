@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
-import { SiteLayout } from "@/components/sites/rea-co/shared/SiteLayout";
-import { SubPageHero } from "@/components/sites/rea-co/shared/SubPageHero";
-import { FinalCta } from "@/components/sites/rea-co/shared/FinalCta";
+import { SiteLayout } from "@/components/sites/vertex-accounting/shared/SiteLayout";
+import { SubPageHero } from "@/components/sites/vertex-accounting/shared/SubPageHero";
+import { FinalCta } from "@/components/sites/vertex-accounting/shared/FinalCta";
 
 export const metadata: Metadata = {
-  title: "Meet REA | Our Team & Leadership",
-  description: "Meet the team behind REA. 230+ property accountants led by experienced real estate accounting professionals.",
+  title: "Meet Vertex | Our Team & Leadership",
+  description: "Meet the team behind Vertex Accounting. 230+ property accountants led by experienced accounting professionals.",
 };
 
 const leaders = [
   {
     name: "Mark Kappelman",
     role: "Co-Founder",
-    bio: "Mark co-founded REA with a vision to provide specialized real estate accounting services. His expertise in property accounting and software platforms drives REA's service delivery.",
+    bio: "Mark co-founded Vertex with a vision to provide specialized accounting services. His expertise in property accounting and software platforms drives Vertex's service delivery.",
   },
   {
     name: "Sharifa Giraldo, CPA",
@@ -24,14 +24,19 @@ const leaders = [
     role: "VP, Client Success — Commercial Property Management",
     bio: "25+ years across retail, office, industrial, and multifamily. Former Portfolio Controller with deep expertise in commercial real estate accounting.",
   },
+  {
+    name: "Sarah Stanton, CPA",
+    role: "Director of Tax",
+    bio: "15+ years of tax experience specializing in real estate taxation. CPA with deep expertise in tax planning, compliance, and advisory for property investors and operators.",
+  },
 ];
 
-export default function MeetREAPage() {
+export default function MeetVertexPage() {
   return (
     <SiteLayout>
       <SubPageHero
-        title="Meet REA"
-        description="230+ property accountants led by experienced real estate accounting professionals. A named team with names, not a ticket queue."
+        title="Meet Vertex"
+        description="230+ property accountants led by experienced accounting professionals. A named team with names, not a ticket queue."
         showDotGrid
       />
 
@@ -40,14 +45,14 @@ export default function MeetREAPage() {
           <h2 className="font-heading text-center text-[clamp(1.5rem,3vw,2rem)] font-semibold text-[#07213a]">
             Our Leadership
           </h2>
-          <div className="mt-12 grid gap-8 md:grid-cols-3">
+          <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             {leaders.map((l) => (
               <div key={l.name} className="rounded-2xl border border-[#dbe0e7] bg-white p-6 shadow-sm text-center">
-                <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#20949d]/10 font-heading text-2xl font-bold text-[#20949d]">
+                <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#4772ED]/10 font-heading text-2xl font-bold text-[#4772ED]">
                   {l.name.split(" ").map((n) => n[0]).join("")}
                 </div>
                 <h3 className="mt-4 font-heading text-base font-semibold text-[#07213a]">{l.name}</h3>
-                <p className="mt-1 text-xs font-medium text-[#20949d]">{l.role}</p>
+                <p className="mt-1 text-xs font-medium text-[#4772ED]">{l.role}</p>
                 <p className="mt-3 text-sm leading-relaxed text-[#435e6b]">{l.bio}</p>
               </div>
             ))}

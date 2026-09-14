@@ -13,28 +13,28 @@ const teamMembers: TeamMember[] = [
     name: "Mark Kappelman, CPA, CFA",
     title: "Co-Founder",
     bio: "Sixteen years across accounting, operations, and real estate, including seven years at PwC and Ernst & Young, and more than $15m of real estate acquired personally.",
-    image: "/sites/rea-co/root-00000000/images/mark-kappelman-avatar.png",
+    image: "/sites/vertex-accounting/root-00000000/images/mark-kappelman-avatar.png",
     imageAlt: "Mark Kappelman, CPA, CFA, Co-Founder at Vertex",
   },
   {
     name: "Adam Eatros",
     title: "Co-Founder",
     bio: "17 years leading operations, finance, and strategy, including 11 years as co-founder and COO of Yidio, and an active LP or GP in assets valued at over $500m.",
-    image: "/sites/rea-co/root-00000000/images/adam-eatros.png",
+    image: "/sites/vertex-accounting/root-00000000/images/adam-eatros.png",
     imageAlt: "Adam Eatros, Co-Founder at Vertex",
   },
   {
     name: "Sharifa Giraldo, CPA",
     title: "VP Client Success (Residential PM)",
     bio: "My goal is to give our clients the peace of mind that comes from knowing their financials are in expert hands.",
-    image: "/sites/rea-co/root-00000000/images/sharifa.png",
+    image: "/sites/vertex-accounting/root-00000000/images/sharifa.png",
     imageAlt: "Sharifa Giraldo, CPA, VP Client Success (Residential PM) at Vertex",
   },
   {
     name: "Will Daege",
     title: "VP - Client Success (Commercial PM)",
     bio: "25+ years across retail, office, industrial, and multifamily, including Portfolio Controller for The Related Companies' New York development portfolio.",
-    image: "/sites/rea-co/root-00000000/images/will.png",
+    image: "/sites/vertex-accounting/root-00000000/images/will.png",
     imageAlt: "Will Daege, VP - Client Success (Commercial PM) at Vertex",
   },
 ];
@@ -100,7 +100,7 @@ export function PeopleSection() {
           </p>
           <div className="flex items-center justify-center gap-10">
             <Image
-              src="/sites/rea-co/root-00000000/images/fox-business.webp"
+              src="/sites/vertex-accounting/root-00000000/images/fox-business.webp"
               alt="Fox Business"
               width={160}
               height={40}
@@ -108,7 +108,7 @@ export function PeopleSection() {
               unoptimized
             />
             <Image
-              src="/sites/rea-co/root-00000000/images/bloomberg-logo.webp"
+              src="/sites/vertex-accounting/root-00000000/images/bloomberg-logo.webp"
               alt="Bloomberg"
               width={140}
               height={36}

@@ -20,7 +20,7 @@ export function TestimonialSection() {
             {/* Logos */}
             <div className="mt-8 flex items-center gap-8">
               <Image
-                src="/sites/rea-co/root-00000000/images/fox-business.webp"
+                src="/sites/vertex-accounting/root-00000000/images/fox-business.webp"
                 alt="Fox Business"
                 width={140}
                 height={36}
@@ -28,7 +28,7 @@ export function TestimonialSection() {
                 unoptimized
               />
               <Image
-                src="/sites/rea-co/root-00000000/images/bloomberg-logo.webp"
+                src="/sites/vertex-accounting/root-00000000/images/bloomberg-logo.webp"
                 alt="Bloomberg"
                 width={120}
                 height={32}

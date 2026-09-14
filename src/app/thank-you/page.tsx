@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SiteLayout } from "@/components/sites/rea-co/shared/SiteLayout";
+import { SiteLayout } from "@/components/sites/vertex-accounting/shared/SiteLayout";
 
 export const metadata: Metadata = {
   title: "Thank You | REA",
@@ -12,8 +12,8 @@ export default function ThankYouPage() {
     <SiteLayout>
       <section className="flex min-h-[70vh] items-center justify-center px-5 py-20 sm:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#20949d]/10">
-            <svg className="h-10 w-10 text-[#20949d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#4772ED]/10">
+            <svg className="h-10 w-10 text-[#4772ED]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
@@ -29,19 +29,19 @@ export default function ThankYouPage() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
               href="/accounting/"
-              className="rounded-full bg-[#20949d] px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#1a7a82]"
+              className="rounded-full bg-[#4772ED] px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#3a5fcc]"
             >
               Our Services
             </Link>
             <Link
               href="/meet-rea/"
-              className="rounded-full border border-[#dbe0e7] px-7 py-3 text-sm font-semibold text-[#07213a] transition-colors hover:border-[#20949d] hover:text-[#20949d]"
+              className="rounded-full border border-[#dbe0e7] px-7 py-3 text-sm font-semibold text-[#07213a] transition-colors hover:border-[#4772ED] hover:text-[#4772ED]"
             >
               Meet Our Team
             </Link>
             <Link
               href="/"
-              className="rounded-full border border-[#dbe0e7] px-7 py-3 text-sm font-semibold text-[#07213a] transition-colors hover:border-[#20949d] hover:text-[#20949d]"
+              className="rounded-full border border-[#dbe0e7] px-7 py-3 text-sm font-semibold text-[#07213a] transition-colors hover:border-[#4772ED] hover:text-[#4772ED]"
             >
               Back to Home
             </Link>

@@ -31,7 +31,7 @@ export function ServicesSection() {
         {/* Left Column — Image with stat card overlay */}
         <div className="relative order-last lg:order-first">
           <Image
-            src="/sites/rea-co/root-00000000/images/residential-street.webp"
+            src="/sites/vertex-accounting/root-00000000/images/residential-street.webp"
             alt="Residential apartment buildings managed with Vertex bookkeeping"
             width={600}
             height={450}

@@ -31,7 +31,7 @@ export function FinalCta({
         <p className="mt-5 leading-relaxed text-white/80">{description}</p>
         <Link
           href={CTAhref}
-          className="mt-8 inline-block rounded-full bg-[#20949d] px-8 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#1a7a82]"
+          className="mt-8 inline-block rounded-full bg-[#4772ED] px-8 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#3a5fcc]"
         >
           {CTAlabel}
         </Link>

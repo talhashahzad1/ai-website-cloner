@@ -36,7 +36,7 @@ export function HeroSection() {
     <section className="relative isolate overflow-hidden bg-[#07213a]">
       {/* Background image */}
       <Image
-        src="/sites/rea-co/root-00000000/images/skyline-dusk.webp"
+        src="/sites/vertex-accounting/root-00000000/images/skyline-dusk.webp"
         alt=""
         fill
         unoptimized
@@ -66,12 +66,12 @@ export function HeroSection() {
         {/* Left column — text */}
         <div>
           <h1 className="font-heading text-[clamp(2.5rem,5.2vw,3.75rem)] font-bold leading-[1.05] tracking-[-0.03em] text-balance text-white">
-            Outsourced Real Estate Accounting
+            Outsourced Accounting
           </h1>
 
           {/* Teal swash underline */}
           <svg
-            className="mt-2 block h-[10px] w-[min(340px,56%)] text-[#51cec8]"
+            className="mt-2 block h-[10px] w-[min(340px,56%)] text-[#6b8aff]"
             viewBox="0 0 340 10"
             fill="none"
             preserveAspectRatio="none"
@@ -85,23 +85,22 @@ export function HeroSection() {
             />
           </svg>
 
-          <h2 className="mt-6 font-heading text-[1.3rem] font-semibold leading-snug text-[#51cec8] sm:text-[1.5rem]">
-            You Handle the Management. Leave the Accounting to Us.
+          <h2 className="mt-6 font-heading text-[1.3rem] font-semibold leading-snug text-[#6b8aff] sm:text-[1.5rem]">
+            You Focus on Growth. Leave the Accounting to Us.
           </h2>
 
           <p className="mt-4 max-w-xl text-[17px] leading-relaxed text-white/85">
-            We help property managers &amp; investors improve profit margins with
-            scalable outsourced accounting: bookkeeping, tax, and lease
-            compliance, inside the software you already use. Real estate
-            accounting outsourcing done properly means outsourced property
-            accounting that runs in your system, not a monthly export.
+            We help businesses improve profit margins with scalable outsourced
+            accounting: bookkeeping, tax, and lease compliance, inside the
+            software you already use. Outsourced accounting done properly means
+            your books run in your system, not a monthly export.
           </p>
 
           {/* CTA */}
           <div className="mt-9 flex flex-wrap items-center gap-x-5 gap-y-5">
             <Link
               href="#get-started"
-              className="inline-block rounded-full bg-[#20949d] px-[35.2px] py-4 text-[15.2px] font-semibold text-white shadow-[0_2px_4px_rgba(4,21,42,0.35),0_12px_26px_-10px_rgba(32,148,157,0.55)] transition-all duration-150 hover:bg-[#1a7a82]"
+              className="inline-block rounded-full bg-[#4772ED] px-[35.2px] py-4 text-[15.2px] font-semibold text-white shadow-[0_2px_4px_rgba(4,21,42,0.35),0_12px_26px_-10px_rgba(71,114,237,0.55)] transition-all duration-150 hover:bg-[#3a5fcc]"
             >
               Schedule a Call
             </Link>
@@ -135,7 +134,7 @@ export function HeroSection() {
                 Your Portfolio · by Vertex
               </p>
             </div>
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#20949d]/20">
+            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#4772ED]/20">
               <CheckIcon />
             </span>
           </div>
@@ -151,7 +150,7 @@ export function HeroSection() {
                   {item}
                 </span>
                 <span
-                  className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#20949d]/25"
+                  className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#4772ED]/25"
                   style={{
                     animation:
                       "check-pop 0.45s cubic-bezier(0.16,1,0.3,1) both",
@@ -175,7 +174,7 @@ export function HeroSection() {
             <span className="text-[0.85rem] font-bold text-white">
               Close complete
             </span>
-            <span className="text-[0.8rem] font-semibold text-[#51cec8]">
+            <span className="text-[0.8rem] font-semibold text-[#6b8aff]">
               Books · Tax · Lease Compliance
             </span>
           </div>
